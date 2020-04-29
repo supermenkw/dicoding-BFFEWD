@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waktu Shalat ID</title>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <!-- Title Header -->
+            <title-header></title-header>
+
+            <!-- Card Dropdown Input -->
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-5 mt-1">
+                    <div class="card border border-success shadow-sm">
+                        <div class="card-body">
+                            <div class="input-group">
+                                <select class="custom-select" id="droplist">
+                                    <option value="default" selected>--- Pilih Kota ---</option>
+                                </select>
+                                <div class="input-group-append">
+                                    <button class="btn btn-success text-center" type="button" id="submit">
+                                        <span class="spinner-border spinner-border-sm align-middle" id="spinner"></span>
+                                        SUBMIT
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabel Jawal Shalat -->
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-5 mt-3">
+                    <div class="card border border-success shadow-sm">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <th colspan="2">
+                                        <b id="kota"></b>
+                                        <b id="date"></b>
+                                        <b id="time"></b>
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Imsak</td>
+                                        <td id="imsak">00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subuh</td>
+                                        <td id="subuh">00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dzuhur</td>
+                                        <td id="dzuhur">00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ashar</td>
+                                        <td id="ashar">00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maghrib</td>
+                                        <td id="maghrib">00:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Isya</td>
+                                        <td id="isya">00:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h6 class="pt-1 text-center">Sumber Data :<small> Situs Kementrian Agama Republik
+                                    Indonesia</small>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Perhatian</h5>
+                </div>
+                <div class="modal-body">
+                    Pilih Kota Terlebih Dahulu!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
