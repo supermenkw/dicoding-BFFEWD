@@ -1,4 +1,4 @@
-# waktushalatid_project
+# Waktu Shalat Indonesia
 Website pencari waktu shalat hari ini berdasarkan kota-kota yang ada di Indonesia.
 
 # API
