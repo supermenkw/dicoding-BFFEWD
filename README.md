@@ -1,7 +1,7 @@
 # Waktu Shalat Indonesia
 Pencari waktu shalat hari ini berdasarkan kota-kota yang ada di Indonesia.
 
-# Install
+# Install NPM Package
 ```
 npm install
 ```
