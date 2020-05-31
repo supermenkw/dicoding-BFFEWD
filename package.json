@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
-  "author": "",
+  "author": "anggamg",
   "license": "ISC",
   "dependencies": {
     "regenerator-runtime": "^0.13.5"
